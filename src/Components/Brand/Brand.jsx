@@ -2,7 +2,7 @@ import React from "react";
 
 const Brand = () => {
     const brands = [
-        { id: 1, image: "/Expense-Tracker-Website/Expense-Tracker-Website/brands/brand_1.png" },
+        { id: 1, image: "/Expense-Tracker-Website/brands/brand_1.png" },
         { id: 2, image: "/Expense-Tracker-Website/brands/brand_2.png" },
         { id: 3, image: "/Expense-Tracker-Website/brands/brand_3.png" },
         { id: 4, image: "/Expense-Tracker-Website/brands/brand_4.png" },
