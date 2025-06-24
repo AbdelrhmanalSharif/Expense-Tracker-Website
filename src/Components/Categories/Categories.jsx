@@ -3,33 +3,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SectionTitle from './../SectionTitle/SectionTitle';
 
-// Use import for images for reliability
-import cat1 from '../../assets/categories/categories_1.png';
-import cat2 from '../../assets/categories/categories_2.png';
-import cat3 from '../../assets/categories/categories_3.png';
-import cat4 from '../../assets/categories/categories_4.png';
 
 const Categories = () => {
     const categories = [
         {
             title: 'Wing Chair',
             products: '3,584 Products',
-            image: cat1,
+            image: '/Expense-Tracker-Website/categories/categories_1.png',
         },
         {
             title: 'Wooden Chair',
             products: '157 Products',
-            image: cat2,
+            image: '/Expense-Tracker-Website/categories/categories_2.png',
         },
         {
             title: 'Desk Chair',
             products: '154 Products',
-            image: cat3,
+            image: '/Expense-Tracker-Website/categories/categories_3.png',
         },
         {
             title: 'Park Bench',
             products: '154 Products',
-            image: cat4,
+            image: '/Expense-Tracker-Website/categories/categories_4.png',
         },
     ];
 
