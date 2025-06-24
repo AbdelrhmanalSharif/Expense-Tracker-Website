@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import Navbar from './../Components/Navbar/Navbar';
 import Home from "../Pages/Home/Home";
 import Auth from "../Pages/Auth/Auth";
@@ -13,7 +13,7 @@ import Footer from "../Components/Footer/Footer";
 const MainLayout = () => {
     return (
 
-        <BrowserRouter>
+        <HashRouter>
             {/* navbar  */}
             <Navbar />
             <Routes>
@@ -34,7 +34,7 @@ const MainLayout = () => {
             {/* footer component  */}
             <Footer />
 
-        </BrowserRouter>
+        </HashRouter>
 
     );
 };
